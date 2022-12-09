@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap%27');
+.js{
+    width:100%;
+    margin: auto;
+    height: 400px;
+    background-color:rgb(243, 243, 182);
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+h2, h3{
+    font-size: 25px;
+    color: #2196f3;
+    margin-left: 10px;
+}
+
+p, ul{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    
+
+}
+.image1{
+    float: right;
+    width: 50%;
+    margin: auto;
+    margin-left: 20px;
+    
+}
+.image4{
+    float: inline-end;
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 20px;
+
+   
+    
+    
+}
+.image3{
+    float: inline-end;
+    width: 50%;
+    margin-top: 120px;
+    margin-left: 20px;
+    
+    
+   
+   
+   
+}
+.image2{
+    float: inline-end;
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 20px;
+    
+    
+    
+}
+.para{
+    width: 90%;
+    display: inline;
+    float: left;
+    margin: 10px 10px 10px 10px;
+
+}
+.texte{
+        margin-left: 120px;
+        color: red;
+}
+footer{
+    text-align: right;
+}
+
+#li{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px;
+    
+}
+.li1{
+    background-color: yellow;
+    text-align: center;
+    
+    
+}
+.li2{
+    background-color: orange;
+    text-align: center;
+   
+}
+.li3{
+   background-color: yellowgreen;
+   text-align: center;
+    
+}
+.li4{
+    background-color:red;
+}
+.sect{
+    width: 60%;
+    background-color: rgb(227, 217, 217);
+}
+
